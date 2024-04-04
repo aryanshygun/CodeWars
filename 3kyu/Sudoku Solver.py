@@ -16,7 +16,7 @@ def is_valid(grid, row, col, num):
     for i in range(3):
         for j in range(3):
             if grid[startrow + i][startcol + j] == num:
-                return False
+                return False              
     # if the num wasnt in neither row col or cubicle        
     else:
         return True
